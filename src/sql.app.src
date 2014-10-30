@@ -1,0 +1,9 @@
+{application, sql, [
+    {description,  "SQL interface to MNESIA"},
+    {vsn,          "0.10"},
+    {applications, [kernel, stdlib]},
+    {modules, []},
+    {registered,   []},
+    {mod, { sql_app, []}},
+    {env, []}
+]}.
